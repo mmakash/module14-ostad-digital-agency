@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from '../Component/Home/NavBar';
 import HeroList from '../Component/Home/HeroList';
 import WorkList from '../Component/Home/WorkList';
+import Counter from '../Component/Home/Counter';
 
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
             <NavBar />
             <HeroList />
             <WorkList />
+            <Counter />
         </div>
     );
 };

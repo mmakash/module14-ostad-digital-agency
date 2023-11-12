@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Followers",
+        "number": 240452,
+        "icon": "/src/assets/JSON-image/Group 3.png"
+    },
+    {
+        "title": "Solved Problem",
+        "number": 6300,
+        "icon": "/src/assets/JSON-image/Like.png"
+    },
+    {
+        "title": "Happy Customers",
+        "number": 2500,
+        "icon": "/src/assets/JSON-image/Happy  1.png"
+    },
+    {
+        "title": "Projects",
+        "number": 360452,
+        "icon": "/src/assets/JSON-image/Scan 3.png"
+    }
+]
