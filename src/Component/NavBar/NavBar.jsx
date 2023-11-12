@@ -1,24 +1,27 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
+
 
 const NavBar = () => {
   return (
-    <div>
-      <div className="card w-96 bg-base-100 shadow-xl">
-        <figure>
-          <img
-            src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-            alt="Shoes"
-          />
-        </figure>
-        <div className="card-body">
-          <h2 className="card-title">Shoes!</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
-          <div className="card-actions justify-end">
-            <button className="btn btn-primary">Buy Now</button>
-          </div>
-        </div>
-      </div>
+    <div className="navbar bg-teal-200 px-20">
+    <div className="navbar-start">
+      <p>Design<span className="text-yellow-500">AGENCY</span></p>
     </div>
+    <div className="navbar-center lg:flex">
+      <ul className="menu lg:menu-horizontal sm:menu-dropdown px-1">
+        <li><NavLink to="/">Home</NavLink></li>
+        <li><NavLink to="/team">Team</NavLink></li>
+        <li><NavLink to="/service">Service</NavLink></li>
+        <li><NavLink to="/project">Project</NavLink></li>
+        <li><NavLink to="/testimonial">Testimonial</NavLink></li>
+      </ul>
+    </div>
+    <div className="navbar-end">
+      <a className="btn btn-outline">Login</a>
+      <a className="btn btn-success ml-2">Register</a>
+    </div>
+  </div>
   );
 };
 

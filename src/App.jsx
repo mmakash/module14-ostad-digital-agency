@@ -1,12 +1,22 @@
 import React from 'react';
-import NavBar from './Component/NavBar/NavBar';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Home from './Pages/Home';
+import Team from './Pages/Team';
+import Service from './Pages/Service';
+import Project from './Pages/Project';
+import Testimonials from './Pages/Testimonials';
 
 const App = () => {
   return (
-    <div>
-      <h1>Here is my React App</h1>
-      <NavBar />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home />}>Home</Route>
+        <Route path='/team' element={<Team />}>Team</Route>
+        <Route path='/service' element={<Service />}>Service</Route>
+        <Route path='/project' element={<Project />}>Project</Route>
+        <Route path='/testimonials' element={<Testimonials />}>Testimonial</Route>
+      </Routes>
+    </BrowserRouter>
   );
 };
 
