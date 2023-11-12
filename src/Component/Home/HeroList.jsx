@@ -4,7 +4,7 @@ const HeroList = () => {
   return (
     <>
    <div className="bg-teal-200">
-   <div className="flex flex-col sm:flex-row justify-between p-6 sm:p-20 h-[80vh]">
+   <div className="flex flex-col sm:flex-row justify-between px-20 sm:p-20 h-[80vh]">
       {/* Left Side */}
       <div className="mb-8 sm:mb-0">
         <h1 className="text-3xl sm:text-7xl font-bold mb-4">
@@ -37,7 +37,6 @@ const HeroList = () => {
       </div>
     </div>
    </div>
-    
     </>
   );
 };
