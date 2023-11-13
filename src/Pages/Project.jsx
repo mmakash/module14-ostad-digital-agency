@@ -1,9 +1,16 @@
 import React from 'react';
+import ProjectData from '../Component/ProjectData';
+import NavBar from '../Component/Home/NavBar';
+import Footer from '../Component/Footer';
+import Mail from '../Component/Home/Mail';
 
 const Project = () => {
     return (
         <div>
-            <h1>This is Project</h1>
+            <NavBar />
+            <ProjectData />
+            <Mail />
+            <Footer />
         </div>
     );
 };
