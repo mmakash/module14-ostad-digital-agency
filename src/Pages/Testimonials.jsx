@@ -1,9 +1,16 @@
 import React from 'react';
+import NavBar from '../Component/Home/NavBar';
+import List from '../Component/List';
+import Mail from '../Component/Home/Mail';
+import Footer from '../Component/Footer';
 
 const Testimonials = () => {
     return (
         <div>
-            <h1>This is Testimonials</h1>
+           <NavBar />
+           <List />
+           <Mail />
+           <Footer />
         </div>
     );
 };
