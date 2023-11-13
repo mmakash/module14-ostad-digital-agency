@@ -1,9 +1,16 @@
 import React from 'react';
+import NavBar from './../Component/Home/NavBar';
+import Footer from '../Component/Footer';
+import Mail from '../Component/Home/Mail';
+import TeamMember from '../Component/TeamMember';
 
 const Team = () => {
     return (
         <div>
-            <h1>This is Team</h1>
+            <NavBar />
+            <TeamMember />
+            <Mail />
+            <Footer />
         </div>
     );
 };
