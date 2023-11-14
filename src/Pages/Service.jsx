@@ -1,9 +1,14 @@
 import React from 'react';
+import NavBar from '../Component/Home/NavBar';
+import AllService from '../Component/AllService';
+import Footer from '../Component/Footer';
 
 const Service = () => {
     return (
         <div>
-            <h1>This is Service</h1>
+            <NavBar />
+            <AllService />
+            <Footer />
         </div>
     );
 };
