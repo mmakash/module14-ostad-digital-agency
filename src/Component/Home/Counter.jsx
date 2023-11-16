@@ -10,7 +10,7 @@ const Counter = () => {
     })();
   }, []);
   return (
-    <div className="flex flex-col sm:flex-row justify-evenly px-20">
+    <div className="flex flex-col sm:flex-row mx-28 justify-between">
       {count &&
         count.map((data, index) => {
           return (

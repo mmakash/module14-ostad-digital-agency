@@ -21,17 +21,20 @@ const FeatureProduct = () => {
       </div>
       {/* here is my mapping start */}
       <div>
-        <div className="flex flex-wrap gap-5">
-          {featureData &&
-            featureData.map((data, index) => {
-              return (
-                <div key={index} className="shadow-xl p-8">
-                  <img className="mb-4" src={data.img} alt="" />
-                  <p className="text-base mb-4">{data.date}</p>
-                  <h2 className="text-3xl font-bold mb-4">{data.title}</h2>
-                </div>
-              );
-            })}
+        <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-0">
+          <div>
+            <img src="/src/assets/images/Group 2190.png" alt="" />
+          </div>
+          <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-4">
+            {featureData &&
+              featureData.map((data, index) => {
+                return (
+                  <div key={index}>
+                    <img src={data.img} alt="" />
+                  </div>
+                );
+              })}
+          </div>
         </div>
       </div>
     </div>

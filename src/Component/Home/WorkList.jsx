@@ -11,7 +11,7 @@ const WorkList = () => {
     })();
   }, []);
   return (
-    <div className="h-[60vh] px-6 sm:px-20 lg:mt-10">
+    <div className="h-[60vh] px-6 sm:px-20 lg:mt-10 mb-40">
       <div>
         <h1 className="text-2xl mb-4 text-green-500">Work List</h1>
         <p className="text-3xl mb-4">We provide the Perfect Solution<br/> to your business growth</p>
