@@ -23,7 +23,7 @@ const FeatureProduct = () => {
       <div>
         <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-0">
           <div>
-            <img src="/src/assets/images/Group 2190.png" alt="" />
+            <img src="/images/Group 2190.png" alt="" />
           </div>
           <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-4">
             {featureData &&

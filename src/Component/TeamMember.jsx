@@ -24,7 +24,7 @@ const TeamMember = () => {
             return (
               <div key={index} className="shadow-xl p-8 rounded">
                 <img src={data.img} alt="" />
-                <h3 className="text-xl font-bold">{data.name}</h3>
+                <h3 className="text-xl font-bold text-center">{data.name}</h3>
               </div>
             );
           })}

@@ -7,7 +7,6 @@ const WorkList = () => {
       const response = await fetch("/public/Database/work.json");
       const data = await response.json();
       setWorkData(data);
-      console.log(data);
     })();
   }, []);
   return (
@@ -21,9 +20,9 @@ const WorkList = () => {
             workData && workData.map((data,index) => {
                 return (
                     <div key={index}>
+                        <img src={data.icon} alt="" />
                         <h1 className="text-3xl font-bold mb-4">{data.title}</h1>
                         <p className="text-base mb-4">{data.description}</p>
-                        <img className="mb-4" src={data.icon} alt="" />
                         <button>Learn More</button>
                     </div>
                 )

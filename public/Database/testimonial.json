@@ -2,38 +2,38 @@
     {
         "name": "Alice Bradley",
         "profession": "Backend Developer",
-        "img": "/src/assets/JSON-image/img5.png",
+        "img": "/JSON-image/img5.png",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio"
     },
     {
         "name": "Alice Bradley",
         "profession": "Backend Developer",
-        "img": "/src/assets/JSON-image/img6.png",
+        "img": "/JSON-image/img6.png",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio"
 
     },
     {
         "name": "Alice Bradley",
         "profession": "Backend Developer",
-        "img": "/src/assets/JSON-image/img4.png",
+        "img": "/JSON-image/img4.png",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio"
     },
     {
         "name": "Alice Bradley",
         "profession": "Backend Developer",
-        "img": "/src/assets/JSON-image/img3.png",
+        "img": "/JSON-image/img3.png",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio"
     },
     {
         "name": "Alice Bradley",
         "profession": "Backend Developer",
-        "img": "/src/assets/JSON-image/img2.png",
+        "img": "/JSON-image/img2.png",
         "desc": "Lorem ipsum dolor sit abet, consectetur advising eliot. Nine vulputate libero et velit interdum, ac aliquet odio"
     },
     {
         "name": "Alice Bradley",
         "profession": "Backend Developer",
-        "img": "/src/assets/JSON-image/img1.png",
+        "img": "/JSON-image/img1.png",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio"
     }
 ]

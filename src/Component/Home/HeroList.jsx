@@ -22,18 +22,18 @@ const HeroList = () => {
       {/* Right Side */}
       <div>
         <div className="flex flex-col sm:flex-row gap-4 pb-4">
-          <img src="/public/Image/aaa.png" alt="Image 1"/>
-          <img src="/src/assets/images/Rectangle 1242.png" alt="Image 2"/>
+          <img src="/images/Rectangle 1241.png" alt="Image 1"/>
+          <img src="/images/Rectangle 1242.png" alt="Image 2"/>
         </div>
         <div className="flex flex-col sm:flex-row gap-4">
-          <img src="/src/assets/images/Rectangle 1243.png" alt="Image 3"/>
-          <img src="/src/assets/images/Rectangle 1244.png" alt="Image 4"/>
+          <img src="/images/Rectangle 1243.png" alt="Image 3"/>
+          <img src="/images/Rectangle 1244.png" alt="Image 4"/>
         </div>
       </div>
     </div>
     <div className="h-[20vh]">
       <div className="flex justify-center items-center bg-slate-50 py-8">
-        <img src="/src/assets/images/Group 1.png" alt="" />
+        <img src="/images/Group 1.png" alt="" />
       </div>
     </div>
    </div>
